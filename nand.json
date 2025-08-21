@@ -1,0 +1,174 @@
+{
+  "caption": "nand",
+  "gates": [
+    {
+      "x": "660",
+      "y": "420",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[true]",
+      "inputsInv": "[false,false]"
+    },
+    {
+      "x": "660",
+      "y": "900",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "870",
+      "y": "450",
+      "colr": "0"
+    },
+    {
+      "x": "1020",
+      "y": "930",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "435",
+      "y": "345",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 0
+    },
+    {
+      "x": "435",
+      "y": "555",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 1
+    },
+    {
+      "x": "465",
+      "y": "1005",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 2
+    },
+    {
+      "x": "465",
+      "y": "855",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 3
+    }
+  ],
+  "wires": [
+    {
+      "x1": "450",
+      "y1": "450",
+      "x2": "660"
+    },
+    {
+      "x1": "450",
+      "y1": "360",
+      "y2": "450"
+    },
+    {
+      "x1": "450",
+      "y1": "480",
+      "x2": "660"
+    },
+    {
+      "x1": "450",
+      "y1": "480",
+      "y2": "570"
+    },
+    {
+      "x1": "720",
+      "y1": "450",
+      "x2": "870"
+    },
+    {
+      "x1": "480",
+      "y1": "930",
+      "x2": "660"
+    },
+    {
+      "x1": "480",
+      "y1": "870",
+      "y2": "930"
+    },
+    {
+      "x1": "480",
+      "y1": "960",
+      "x2": "660"
+    },
+    {
+      "x1": "480",
+      "y1": "960",
+      "y2": "1020"
+    },
+    {
+      "x1": "720",
+      "y1": "930",
+      "x2": "870"
+    },
+    {
+      "x1": "900",
+      "y1": "930",
+      "x2": "1020"
+    }
+  ],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [
+    {
+      "x": "840",
+      "y": "900",
+      "direction": "0",
+      "filename": "\"not-gate.json\"",
+      "outputsInv": "[]",
+      "inputsInv": "[]"
+    }
+  ],
+  "labels": [
+    {
+      "x": "480",
+      "y": "300",
+      "txt": "A"
+    },
+    {
+      "x": "480",
+      "y": "630",
+      "txt": "B"
+    },
+    {
+      "x": "870",
+      "y": "390",
+      "txt": "Q"
+    },
+    {
+      "x": "510",
+      "y": "840",
+      "txt": "A"
+    },
+    {
+      "x": "510",
+      "y": "1050",
+      "txt": "B"
+    },
+    {
+      "x": "1050",
+      "y": "900",
+      "txt": "Q"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}
